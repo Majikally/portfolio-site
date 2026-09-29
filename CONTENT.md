@@ -1,11 +1,16 @@
 # Max Gzym Portfolio Documentation
-# I already have a template portfolio site with information on it, so a lot of this is either copy and pasted or tweaked with new projects or information about me.
 
-# About me
+## I already have a template portfolio site with information on it, so a lot of this is either copy and pasted or tweaked with new projects or information about me.
 
-Hi, I'm Max, and I've always had a love for all things related to level design. Starting in various level editors or sandbox games like Minecraft, I always sought out to make the most enjoyable and memorable experiences. I originally planned to major in something level-design adjacent, like Psychology or Architecture; however, when I learned about the Game Dev program at MSU and that level design is, in fact, a real career path, I became a Games and Interactive Media major at Michigan State.
+### Intro
 
-When I'm not designing levels and playing games, I spend a lot of my free time watching and deeply analyzing various movies and TV shows. I love chatting about what stories do to create a captivating and relatable story, while also criticizing them.
+Max Gzym: Student at Michigan State University studying Games and Interactive Media with a focus on Game Level Design and UX
+
+### About me
+
+Hi, I'm Max, and I've always had a love for all things related to level design. What started as a fascination with level editors has turned me into a professional level designer. My main objective as a level designer is to design player-centered spaces, focusing on ways to balance spaces in ways that benefit the player. On most of my projects, you'll see my main progression I go through when designing a level: research, initial sketches, blockouts, and playtesting/refinement.
+
+When I'm not designing levels and playing games, I spend a lot of my free time watching and deeply analyzing various movies and TV shows. I love chatting about what stories do to create a captivating and relatable story, while also criticizing them. 
 
 # Projects
 ## The Dead Jay

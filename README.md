@@ -2,11 +2,8 @@
 
 # Max Gzym's Level Design Portfolio
 
-## What to add once done:
+## Overview
 
-- MI 330 Level Design Final
-- Either Unreal Project or MI 445 Project
-- The Great Plateau project
-- Smaller game jam stuff
-- About me
-- Contact Info
+Level Design portfolio that focuses on 3 main projects I'm proud to show recruiters.
+
+

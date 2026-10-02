@@ -34,7 +34,7 @@ Likely an Unreal Engine 5 project, third person action adventure. Include:
 3. Sketch
 4. Initial blockout + playtesting
 5. Refinement and final thoughts
-
+Note: this project hasn't started yet, but it will be added once finished
 ## Contact
 Max Gzym
 max.gzym@gmail.com

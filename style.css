@@ -1,0 +1,52 @@
+:root {
+    --primary-bg: #373f51ff;
+    --card-bg: #fee9e1ff;
+    --header-bg: #8fe388ff;
+    --primary-text: #000000;
+    --standard-gap: 40px;
+    --page-margin: 20px;
+    
+}
+
+body {
+    font-family: sans-serif;
+    background: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+#logo img {
+    width: 250px
+}
+
+#logo img:hover {
+    transform: scale(1.1);
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    margin: var(--page-margin);
+}
+
+nav {
+     background: var(--header-bg);
+}
+
+#card  {
+    background: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}

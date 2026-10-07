@@ -38,3 +38,6 @@ Note: this project hasn't started yet, but it will be added once finished
 ## Contact
 Max Gzym
 max.gzym@gmail.com
+
+Colors:
+Dark blue, light green. White boxes, black text.

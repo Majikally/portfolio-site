@@ -100,7 +100,7 @@ strong {
     color:#00e8fc;
 }
 
-#card  {
+.card  {
     background: var(--card-bg);
     padding: 1rem;
     margin-bottom: 1rem;

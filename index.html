@@ -11,7 +11,8 @@
 </head>
 <body>
     <header>
-        <a id = "logo" href="#"><img src="images/portfoliotaskbar.png" alt="Max Logo"></a>
+        <a id="logo" href="#"><img src="images/portfoliotaskbar.png" alt="Max Logo"></a>
+
         <nav id="menu" class="wayfinder">
             <ul>
                 <li><a href="#about">About</a></li>
@@ -26,12 +27,11 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <section>
+        <section id="hero">
             <h1>Max Gzym's Level Design Portfolio</h1> 
             <p>Max Gzym is a Student at Michigan State University studying <a href="https://gamedev.msu.edu/undergraduate-major/">Games and Interactive Media</a> with a focus on Game Level Design and UX</p>
-        </section>
+        </section><br>
         <section id="about">
             <h2>About</h2>
             <p>Hi, I'm Max, and I've always had a love for all things related to level design. What started as a fascination with level editors has turned me into a professional level designer. My main objective as a level designer is to design player-centered spaces, focusing on ways to balance spaces in ways that benefit the player. On most of my projects, you'll see my main process I go through when designing a level: research, initial sketches, blockouts, and playtesting/refinement. If you want to see more of my work, you can check out my <a href="https://majikal.itch.io">Itch page!</a></p>
@@ -41,9 +41,10 @@
         <section id="projects">
             <h2>Projects</h2>
             <article id="card">
-                    <h3>The Dead Jay</h3>
-                    <p>Unreal Engine 5 Stealth Level Design Project.</p><br>
+                <section class="heading">
+                    <h3>The Dead Jay</h3> 
                     <a><img src="gifs/deadjay/MainPageGif.gif" alt="The Dead Jay Gif"></a>
+                 </section>
                 <section class="body">
                     <h4>Project Overview</h4>
                     <p>The DeadJay is a level inspired by Hitman 3's Berlin mission. This level concept has the ultimate goal of eliminating the DJ performing at a nightclub built in an abandoned Cold War facility. To avoid detection, the player's first goal is to turn off the power by reaching 3 radomes across the map and turning off their power supply.</p>
@@ -67,6 +68,7 @@
                         <li>Outside Restaraunt</li>
                     </ul>
                 </section>
+            
                 <section class="body">
                     <h4>Ideation and Sketch</h4>
                     <p>Once the research was done, I had to narrow down possible location ideas based on several important factors that related to key level design principles. I asked myself these questions to help:</p>
@@ -93,9 +95,10 @@
             </article>
 
             <article id="card">
-                    <h3>The Great Plateau</h3>
-                    <p>Minecraft level design over the span of 6 months.</p><br>
+                <section class="heading">
+                    <h3>The Great Plateau, but it's Minecraft Parkour</h3>
                     <a><img src="gifs/greatplateau/botwmaingif.gif" alt="The Great Plateau Gif"></a>       
+                </section>
                 <section class="body">
                     <h4>Project Overview</h4>
                     <p>This map is a recreation of the Great Plateau from The Legend of Zelda: Breath of the Wild, but done through the unique movement mechanics of Minecraft. It combines the open-ended and puzzle elements of the original game and its own movement-based twist!</p>
@@ -146,8 +149,9 @@
             </article>
 
             <article id="card">
+                <section class="heading">
                 <h3>MI330 Level</h3>
-                <p>Likely an Unreal Engine 5 project, third person action adventure.</p>
+                </section>
                 <aside>
                     <p>This project is not currently started, but I will be going all out on it and should be ready in time for the final deployment of this site.</p>
                 </aside>

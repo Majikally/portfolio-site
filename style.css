@@ -1,11 +1,11 @@
 :root {
-    --primary-bg: #373f51ff;
+    --primary-bg: rgb(68, 80, 107);
     --card-bg: #fee9e1ff;
     --header-bg: #8fe388ff;
     --primary-text: #000000;
+    --secondary-text: white;
     --standard-gap: 40px;
-    --page-margin: 20px;
-    
+    --page-margin: 50px; 
 }
 
 body {
@@ -15,7 +15,8 @@ body {
 }
 
 #logo img {
-    width: 250px
+    width: 250px;
+    margin: 20px;
 }
 
 #logo img:hover {
@@ -26,27 +27,135 @@ header {
     text-align: center;
     padding: 1rem 0;
     margin: var(--page-margin);
+    border-radius: 30px;
 }
 
-nav {
-     background: var(--header-bg);
+img {
+    border-color:#000000;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+a {
+    color: #00e8fc;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #38d7e6;
+    font-weight: 700;
+}
+
+#hero h1 {
+    font-size: 65px;
+    text-align: center;
+    color: var(--secondary-text);
+}
+
+#hero p {
+    text-align: center;
+    color: var(--secondary-text);
+    font-size: 30px
+}
+
+#about p {
+    color: var(--secondary-text);
+    margin-left: var(--page-margin);
+    margin-right: var(--page-margin);
+}
+
+ h2 {
+    text-align: center;
+    font-size: 30px;
+    background: var(--header-bg);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.heading {
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px
+}
+
+strong {
+    color:#00e8fc;
 }
 
 #card  {
-    background: #ffffff;
+    background: #fee9e1ff;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 5px;
+    border-color: black;
+    margin: var(--page-margin);
+    box-shadow: 15px 15px 0px black;
+    border-style: solid;
+}
+
+section .body {
+    background-color: rgb(241, 228, 223);
+    border-style: solid;
+    border-color: black;
     border-radius: 10px;
+    border-width: 3px;
+    margin: 20px;
+    padding: 10px;
 }
 
 
+
+nav {
+    background: var(--header-bg);   
+    padding: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 5px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+nav a {
+     color: rgb(5, 75, 228);
+     margin: 10px;
+     font-size: 20px
+}
 
 nav ul {
     list-style-type: none;
     margin: 10px;
     padding: 0;
+    color: black;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
+    margin: 5px 0;
+}
+
+nav ul ul li a {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#contact {
+    color: white;
+    
+}
+
+footer {
+    background-color: #58bc82ff;
 }

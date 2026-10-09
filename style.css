@@ -4,12 +4,11 @@
     --header-bg: #8fe388ff;
     --primary-text: #000000;
     --secondary-text: white;
-    --standard-gap: 40px;
     --page-margin: 50px; 
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     background: var(--primary-bg);
     color: var(--primary-text);
 }
@@ -17,6 +16,7 @@ body {
 #logo img {
     width: 250px;
     margin: 20px;
+    transition: transform 0.3s ease;
 }
 
 #logo img:hover {
@@ -35,6 +35,7 @@ img {
     border-radius: 30px;
     border-width: 5px;
     border-style: solid;
+    box-shadow: 5px 5px 0px black;
 }
 
 a {
@@ -48,9 +49,11 @@ a:hover {
 }
 
 #hero h1 {
+    font-family: 'Alatsi', sans-serif;
     font-size: 65px;
     text-align: center;
     color: var(--secondary-text);
+    text-shadow: 0px 0px 10px #00e8fc;
 }
 
 #hero p {
@@ -68,6 +71,7 @@ a:hover {
  h2 {
     text-align: center;
     font-size: 30px;
+    font-family: 'Alatsi', sans-serif;
     background: var(--header-bg);
     padding-bottom: 15px;
     padding-top: 15px;
@@ -88,12 +92,16 @@ h4 {
     font-size: 20px
 }
 
+h5 {
+    font-size: 16px;
+}
+
 strong {
     color:#00e8fc;
 }
 
 #card  {
-    background: #fee9e1ff;
+    background: var(--card-bg);
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 20px;
@@ -112,8 +120,12 @@ section .body {
     border-width: 3px;
     margin: 20px;
     padding: 10px;
+    transition: transform 0.3s ease;
 }
 
+section .body:hover {
+     transform: scale(1.01);
+}
 
 
 nav {
@@ -152,10 +164,20 @@ nav ul ul li a {
 }
 
 #contact {
-    color: white;
+    color: var(--primary-text);
     
+}
+
+#contact p {
+    color: var(--secondary-text);
+    margin-left: var(--page-margin);
 }
 
 footer {
     background-color: #58bc82ff;
+    padding-top: 50px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }

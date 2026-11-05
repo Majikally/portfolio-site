@@ -1,5 +1,5 @@
 :root {
-    --primary-bg: rgb(41, 47, 61);
+    --primary-bg: #292f3d;
     --card-bg: #fee9e1ff;
     --header-bg: #8fe388ff;
     --primary-text: #000000;
@@ -177,7 +177,7 @@ h5 {
 }
 
 strong {
-    color:#00e8fc;
+    color:#1226BA;
 }
 
 .card  {
@@ -193,7 +193,7 @@ strong {
 }
 
 section .body {
-    background-color: rgb(241, 228, 223);
+    background-color: #f1e4df;
     border-style: solid;
     border-color: black;
     border-radius: 10px;
@@ -283,7 +283,7 @@ nav ul ul li a {
 }
 
 footer {
-    background-color: #58bc82ff;
+    background-color: #215E41;
     padding: 25px;
     color: white;
     border-style: solid;

@@ -7,6 +7,15 @@
     --page-margin: 35px; 
 }
 
+/*
+Inverse Colors
+--inverse-bg: #FEE9E1;
+--inverse-card-bg: #292f3d;
+--inverse-header-bg: #8fe388;
+--inverse-primary-text: white;
+--inverse-secondary-text: black;
+*/
+
 body {
     font-family: 'Inter Tight', sans-serif;
     background: var(--primary-bg);
@@ -64,8 +73,9 @@ a {
 }
 
 a:hover {
-    color: #38d7e6;
+    color: #279aa5;
     font-weight: 700;
+    text-shadow: 0px 0px 1px black;
 }
 
 #hero h1 {
@@ -224,7 +234,7 @@ nav {
 }
 
 nav a {
-     color: rgb(5, 75, 228);
+     color: #19429c;
      display: block;
      padding: 8px 12px;
      font-size: 20px;

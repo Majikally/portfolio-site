@@ -4,17 +4,47 @@
     --header-bg: #8fe388ff;
     --primary-text: #000000;
     --secondary-text: white;
+    --header-text: black;
+    --body-card-bg: #f1e4df;
+    --link: #00e8fc;
+    --link-hover: #279aa5;
+    --strong: #1226BA;
+    
+    --inverse-bg: #FEE9E1;
+    --inverse-card-bg: #292f3d;
+    --inverse-header-bg: #8fe388;
+    --inverse-primary-text: white;
+    --inverse-header-text: black;
+    --inverse-secondary-text: black;
+    --inverse-body-card-bg: #364057;
     --page-margin: 35px; 
+    --inverse-link: #1524ff;
+    --inverse-link-hover: #000dc5;
+    --inverse-strong: #29f1f1;
 }
 
-/*
-Inverse Colors
---inverse-bg: #FEE9E1;
---inverse-card-bg: #292f3d;
---inverse-header-bg: #8fe388;
---inverse-primary-text: white;
---inverse-secondary-text: black;
+/* 
+AI used for help with JavaScripting the theme toggle functionality. Prompt used:
+
+I want to make a function in the utilities.js file. I have an input called <input onclick="clickOMatic();"type="image" src="images/MoonIcon.png" alt="Darkmode">where on click I would like to call the clickOMatic function.
+
+I want this clickOMatic function to alter the page to have a light mode color. The colors I have selected are simply inverses of what is already present; they are commented out under the inverse colors section in the css file.
+
+I also want to change the image of the button from the MoonIcon to the SunIcon.
 */
+
+body.light-mode {
+    --primary-bg: var(--inverse-bg);
+    --card-bg: var(--inverse-card-bg);
+    --header-bg: var(--inverse-header-bg);
+    --primary-text: var(--inverse-primary-text);
+    --secondary-text: var(--inverse-secondary-text);
+    --body-card-bg: var(--inverse-body-card-bg);
+    --link: var(--inverse-link);
+    --link-hover: var(--inverse-link-hover);
+    --strong: var(--inverse-strong);
+    --header-text: var(--inverse-header-text);
+}
 
 body {
     font-family: 'Inter Tight', sans-serif;
@@ -68,12 +98,12 @@ img {
 }
 
 a {
-    color: #00e8fc;
+    color: var(--link);
     font-weight: 700;
 }
 
 a:hover {
-    color: #279aa5;
+    color: var(--link-hover);
     font-weight: 700;
     text-shadow: 0px 0px 1px black;
 }
@@ -83,7 +113,6 @@ a:hover {
     font-size: 65px;
     text-align: center;
     color: var(--secondary-text);
-    text-shadow: 0px 0px 10px #00e8fc;
 }
 
 #hero p {
@@ -101,8 +130,6 @@ a:hover {
 #projects > article {
     min-width: 0;
 }
-
-
 
 #projects img {
     display: block;
@@ -147,6 +174,7 @@ Create a CSS grid for the #projects section ID where the heading is its own row 
 
  h2 {
     text-align: center;
+    color: var(--header-text);
     font-size: 30px;
     font-family: 'Alatsi', sans-serif;
     background: var(--header-bg);
@@ -164,7 +192,7 @@ h3 {
     text-align: center;
     font-size: 25px;
     font-family: 'Alatsi', sans-serif;
-    background: white;
+    background: var(--body-card-bg);
     padding-bottom: 15px;
     padding-top: 15px;
     border-style: solid;
@@ -187,11 +215,11 @@ h5 {
 }
 
 strong {
-    color:#1226BA;
+    color: var(--strong);
 }
 
 .card  {
-    background: var(--card-bg);
+    background: var(--body-card-bg);
     padding: 1rem;
     margin: var(--page-margin);
     margin-bottom: 1rem;
@@ -203,7 +231,7 @@ strong {
 }
 
 section .body {
-    background-color: #f1e4df;
+    background-color: var(--card-bg);
     border-style: solid;
     border-color: black;
     border-radius: 10px;

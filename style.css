@@ -310,6 +310,13 @@ nav ul ul li a {
     font-size: 15px;
 }
 
+youtube-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: 100%;
+}
+
 
 #contact {
     color: var(--primary-text);
